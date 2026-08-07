@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Botao Hu</title>
+<meta name="description" content="Botao Hu — CS at WPI. Reinforcement learning, graph learning, full-stack.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Botao Hu</h1>
+  <p class="tagline">Computer Science, Worcester Polytechnic Institute</p>
+</header>
+
+<main>
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I hold B.S. and M.S. degrees in Computer Science from Worcester
+      Polytechnic Institute (May 2026), where I worked with Prof. Qi Zhang.
+      My research focused on reinforcement learning for games — particularly
+      bridge bidding — and generative models for graphs. I also build
+      full-stack systems and developer tooling.
+    </p>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+
+    <article>
+      <h3>Training Strong Bridge Bidding Agents via PPO with Privileged Information</h3>
+      <p class="meta">
+        M.S. thesis, advised by Qi Zhang &middot; accepted at IEEE CoG 2026 (oral)
+      </p>
+      <p>
+        PPO and fictitious self-play for bridge bidding in JAX, trained over
+        10M+ episodes on a Slurm HPC cluster. Introducing privileged critics
+        (partner/global hand access) during training improves play by
+        +1.41 IMPs/b over WBridge5, the industry baseline.
+      </p>
+    </article>
+
+    <article>
+      <h3>Scaling Diffusion Models to Large Sparse Graphs</h3>
+      <p class="meta">
+        Major Qualifying Project, co-advised by Fabricio Murai and Oren Mangoubi
+      </p>
+      <p>
+        Profiling and optimization of PyTorch Graph Transformer training
+        pipelines, together with a constrained discrete diffusion method for
+        large sparse graph generation.
+      </p>
+    </article>
+  </section>
+
+  <section id="projects">
+    <h2>Selected Projects</h2>
+
+    <article>
+      <h3>Forge</h3>
+      <p>
+        Local-first CLI that adversarially reviews changes produced by coding
+        agents: deterministic checks plus independent specification, test, and
+        risk reviewers, with findings validated against captured evidence.
+        TypeScript, Node, SQLite. Runs in detached worktrees under fail-closed
+        Linux sandboxes.
+      </p>
+    </article>
+
+    <article>
+      <h3>Audio Atlas</h3>
+      <p>
+        Full-stack sound-effect recommender (10k+ samples) with CLAP
+        language-audio embeddings and dot-product search. Vue.js frontend,
+        FastAPI + PostgreSQL backend, deployed on AWS.
+      </p>
+    </article>
+
+    <article>
+      <h3>American Sign Language Recognition</h3>
+      <p>
+        Real-time recognition with a from-scratch CNN-Transformer and OpenCV
+        hand tracking, 93% accuracy.
+      </p>
+    </article>
+
+    <article>
+      <h3>linuxClock</h3>
+      <p>
+        Linux CLI time tool (timer, stopwatch, alarm, focus sessions) in Rust:
+        a background daemon owns state and fires desktop notifications while a
+        foreground TUI displays it.
+      </p>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <p>
+    <a href="mailto:botaohu26@gmail.com">botaohu26@gmail.com</a> &middot;
+    <a href="https://linkedin.com/in/botao-hu-wpi/">LinkedIn</a>
+  </p>
+</footer>
+</body>
+</html>
